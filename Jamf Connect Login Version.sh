@@ -3,6 +3,7 @@
 ## Written by Matt Taylor
 
 ## This script is designed to be used as a Computer Extension Attribute in Jamf Pro to report on the installed version of Jamf Connect Login.  The version is read from the Info.plist file inside the JamfConnectLogin.bundle security agent plugin.
+## Note: When configuring the Extension Attribute in Jamf Pro be sure to use Integer as the Data Type to allow for the most relevant smart criteria operators.
 
 ## DO NOTE CHANGE BELOW THIS LINE ##
 # Declare a default variable value of Not Installed.
